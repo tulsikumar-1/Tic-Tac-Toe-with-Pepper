@@ -1,0 +1,160 @@
+:root {
+    --board-line-width: 5px;
+
+    /* tile = board*30/100 */
+    /* default set for these three: 300px 90px 50px */
+    /* larger set: 600px 180px 100px */
+    --board-dim: 300px;
+    --tile-dim: 75px;
+    --font-size: 50px;   /* x1.5 if using the cool Unicode characters ⨯○ */
+
+    --x-color: red;
+    --o-color: blue;
+    --highlight-color: #ffff0080;
+}
+
+/* The .page class does nothing here, it's useful to select all pages from the JS*/
+
+.age-grid {
+    margin: 3%;
+    display: grid;
+    grid-template-columns:  50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.experience-flex {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.menu-button {
+    margin: 25px;
+    min-width: 300px;
+    height: 200px;
+    font-size: 100px;
+}
+
+
+
+
+#loading {
+    text-align: center;
+}
+#loading img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 50%
+}
+
+#show-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 80%
+}
+
+
+
+#container3 {
+    margin: /*0*/ auto;
+    display: grid;
+    column-gap: 0;
+    grid-template-columns:  10% 30% 30% 30%;
+    grid-template-rows: 10% 30% 30% 30%;
+    max-width: var(--board-dim);
+    max-height: var(--board-dim);
+}
+
+
+#container4 {
+    margin: auto;
+    display: grid;
+    column-gap:0;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: var(--board-dim);
+    max-height: var(--board-dim);
+}
+
+
+
+.coord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tile {
+    /* border: 1px solid black; */
+    min-width: var(--tile-dim);
+    min-height: var(--tile-dim);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+}
+
+.tile#t00, .tile#t01, .tile#t10, .tile#t11 {
+    border-bottom: var(--board-line-width) solid black;
+    border-right: var(--board-line-width) solid black;
+}
+
+.tile#t02, .tile#t12 {
+    border-bottom: var(--board-line-width) solid black;
+}
+
+.tile#t20, .tile#t21 {
+    border-right: var(--board-line-width) solid black;
+}
+
+/* t22 has no border */
+
+
+
+.tile#tt00, .tile#tt01, .tile#tt02,
+.tile#tt10, .tile#tt11, .tile#tt12,
+.tile#tt20, .tile#tt21, .tile#tt22
+ {
+    border-bottom: var(--board-line-width) solid black;
+    border-right: var(--board-line-width) solid black;
+}
+
+.tile#tt03, .tile#tt13,.tile#tt23  {
+   border-bottom: var(--board-line-width) solid black;
+}
+
+.tile#tt30, .tile#tt31, .tile#tt32 {
+    border-right: var(--board-line-width) solid black;
+}
+
+
+
+.has-x {
+    color: var(--x-color);
+}
+
+.has-o {
+    color: var(--o-color);
+}
+
+.highlight {
+    background-color: var(--highlight-color);
+}
+
+
+.heading {
+  text-align: center;
+
+}
+
+}
+}
