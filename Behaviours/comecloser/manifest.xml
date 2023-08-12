@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" installOnlyAtStartup="false" uuid="comecloser">
+ <names>
+  <name lang="en_US">comecloser</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">come to me
+</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+  </dialogContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.0" maxVersion="2.8"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.2" uuid="congrats" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">congrats</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">congrats</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.8" minVersion="2.0"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
