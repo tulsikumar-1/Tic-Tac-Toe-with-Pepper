@@ -1,0 +1,374 @@
+0 : {(robot tl)} -- {} 1
+1 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 2 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 3 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 4 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 5 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 6 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 7 -- {(next x o)(actor x)} \ {(actor o)} 8 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 9 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 10
+2 : {(robot mm)} -- {} 11
+3 : {(robot mm)} -- {} 12
+4 : {(robot mm)} -- {} 13
+5 : {(robot br)} -- {} 14
+6 : {(robot mm)} -- {} 15
+7 : {(robot bl)} -- {} 16
+8 : {(robot mm)} -- {} 17
+9 : {(robot mm)} -- {} 18
+10 : {(robot mm)} -- {} 19
+11 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 20 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 21 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 22 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 23 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 24 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 25 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 26
+12 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 21 -- {(next x o)(actor x)} \ {(actor o)} 27 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 28 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 29 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 30 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 31 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 32
+13 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 22 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 28 -- {(next x o)(actor x)} \ {(actor o)} 33 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 34 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 35 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 36 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 37
+14 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 38 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 39 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 40 -- {(next x o)(actor x)} \ {(actor o)} 41 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 42 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 43 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 44
+15 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 23 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 29 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 34 -- {(next x o)(actor x)} \ {(actor o)} 45 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 46 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 47 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 48
+16 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 49 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 50 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 51 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 52 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 53 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 54 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 55
+17 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 20 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 27 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 33 -- {(next x o)(actor x)} \ {(actor o)} 56 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 45 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 57 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 58 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 59
+18 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 25 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 31 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 36 -- {(next x o)(actor x)} \ {(actor o)} 58 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 47 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 60 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 61
+19 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 26 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 32 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 37 -- {(next x o)(actor x)} \ {(actor o)} 59 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 48 -- {(marked br o)(next x o)(actor x)} \ {(actor o)} 62 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 61
+20 : {(robot br)} -- {} 63
+21 : {(robot br)} -- {} 64
+22 : {(robot br)} -- {} 65
+23 : {(robot br)} -- {} 66
+24 : {(robot tm)} -- {} 67
+25 : {(robot br)} -- {} 68
+26 : {(robot br)} -- {} 69
+27 : {(robot br)} -- {} 70
+28 : {(robot br)} -- {} 71
+29 : {(robot br)} -- {} 72
+30 : {(robot ml)} -- {} 73
+31 : {(robot br)} -- {} 74
+32 : {(robot br)} -- {} 75
+33 : {(robot br)} -- {} 76
+34 : {(robot br)} -- {} 77
+35 : {(robot ml)} -- {} 78
+36 : {(robot br)} -- {} 79
+37 : {(robot br)} -- {} 80
+38 : {(robot tr)} -- {} 81
+39 : {(robot tr)} -- {} 82
+40 : {(robot bl)} -- {} 83
+41 : {(robot tr)} -- {} 84
+42 : {(robot bl)} -- {} 85
+43 : {(robot bl)} -- {} 86
+44 : {(robot tr)} -- {} 87
+45 : {(robot br)} -- {} 88
+46 : {(robot tm)} -- {} 89
+47 : {(robot br)} -- {} 90
+48 : {(robot br)} -- {} 91
+49 : {(robot ml)} -- {} 92
+50 : {(robot ml)} -- {} 93
+51 : {(robot ml)} -- {} 94
+52 : {(robot ml)} -- {} 95
+53 : {(robot ml)} -- {} 96
+54 : {(robot ml)} -- {} 97
+55 : {(robot tr)} -- {} 98
+56 : {(robot br)} -- {} 99
+57 : {(robot ml)} -- {} 100
+58 : {(robot br)} -- {} 101
+59 : {(robot br)} -- {} 102
+60 : {(robot ml)} -- {} 103
+61 : {(robot br)} -- {} 104
+62 : {(robot tm)} -- {} 105
+63 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 106 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 107 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 108 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 109 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 110 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 111
+64 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 107 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 112 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 113 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 114 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 115
+65 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 108 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 112 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 116 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 117 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 118
+66 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 109 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 113 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 116 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 119 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 120
+67 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 121 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 122 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 123 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 124 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 125
+68 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 110 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 114 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 117 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 119 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 126
+69 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 111 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 115 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 118 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 120 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 126
+70 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 107 -- {(next x o)(actor x)} \ {(actor o)} 127 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 128 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 129 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 130 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 131
+71 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 112 -- {(next x o)(actor x)} \ {(actor o)} 128 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 132 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 133 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 134
+72 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 113 -- {(next x o)(actor x)} \ {(actor o)} 129 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 132 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 135 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 136
+73 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 137 -- {(next x o)(actor x)} \ {(actor o)} 138 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 139 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 140 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 141
+74 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 114 -- {(next x o)(actor x)} \ {(actor o)} 130 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 133 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 135 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 142
+75 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 115 -- {(next x o)(actor x)} \ {(actor o)} 131 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 134 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 136 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 142
+76 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 108 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 128 -- {(next x o)(actor x)} \ {(actor o)} 143 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 144 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 145 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 146
+77 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 116 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 132 -- {(next x o)(actor x)} \ {(actor o)} 144 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 147 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 148
+78 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 149 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 139 -- {(next x o)(actor x)} \ {(actor o)} 150 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 151 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 152
+79 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 117 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 133 -- {(next x o)(actor x)} \ {(actor o)} 145 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 147 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 153
+80 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 118 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 134 -- {(next x o)(actor x)} \ {(actor o)} 146 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 148 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 153
+81 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 154 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 155 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 156 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 157 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 158
+82 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 155 -- {(next x o)(actor x)} \ {(actor o)} 159 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 160 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 161 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 162
+83 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 163 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 164 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 165 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 166 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 167
+84 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 154 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 159 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 168 -- {(next x o)(actor x)} \ {(actor o)} 169 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 170 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 171
+85 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 172 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 173 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 165 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 174 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 175
+86 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 176 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 177 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 166 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 174 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 178
+87 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 158 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 162 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 179 -- {(next x o)(actor x)} \ {(actor o)} 171 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 180
+88 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 109 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 129 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 144 -- {(next x o)(actor x)} \ {(actor o)} 181 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 182 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 183
+89 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 123 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 184 -- {(next x o)(actor x)} \ {(actor o)} 185 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 186 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 187
+90 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 119 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 135 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 147 -- {(next x o)(actor x)} \ {(actor o)} 182 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 188
+91 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 120 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 136 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 148 -- {(next x o)(actor x)} \ {(actor o)} 183 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 188
+92 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 189 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 190 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 191 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 192 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 193 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 194
+93 : {(human mm)} -- {(next x o)(actor x)} \ {(actor o)} 190 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 195 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 196 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 197 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 198
+94 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 191 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 195 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 199 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 200 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 201
+95 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 192 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 196 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 199 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 202 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 203
+96 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 193 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 197 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 200 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 202 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 204
+97 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 194 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 198 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 201 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 203 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 204
+98 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 205 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 206 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 207 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 208 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 209
+99 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 106 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 127 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 143 -- {(next x o)(actor x)} \ {(actor o)} 210 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 181 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 211 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 212
+100 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 213 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 138 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 150 -- {(next x o)(actor x)} \ {(actor o)} 214 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 215 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 216
+101 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 110 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 130 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 145 -- {(next x o)(actor x)} \ {(actor o)} 211 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 182 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 217
+102 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 111 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 131 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 146 -- {(next x o)(actor x)} \ {(actor o)} 212 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 183 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 217
+103 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 218 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 141 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 152 -- {(next x o)(actor x)} \ {(actor o)} 216 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 219
+104 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 126 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 142 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 153 -- {(next x o)(actor x)} \ {(actor o)} 217 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 188
+105 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 125 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 220 -- {(next x o)(actor x)} \ {(actor o)} 221 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 187 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 222
+106 : {(down_diag x o)} -- {} GOAL
+107 : {(down_diag x o)} -- {} GOAL
+108 : {(down_diag x o)} -- {} GOAL
+109 : {(down_diag x o)} -- {} GOAL
+110 : {(down_diag x o)} -- {} GOAL
+111 : {(down_diag x o)} -- {} GOAL
+112 : {(down_diag x o)} -- {} GOAL
+113 : {(down_diag x o)} -- {} GOAL
+114 : {(down_diag x o)} -- {} GOAL
+115 : {(down_diag x o)} -- {} GOAL
+116 : {(down_diag x o)} -- {} GOAL
+117 : {(down_diag x o)} -- {} GOAL
+118 : {(down_diag x o)} -- {} GOAL
+119 : {(down_diag x o)} -- {} GOAL
+120 : {(down_diag x o)} -- {} GOAL
+121 : {(robot bm)} -- {} 223
+122 : {(robot tr)} -- {} 224
+123 : {(robot bm)} -- {} 225
+124 : {(robot bm)} -- {} 226
+125 : {(robot bm)} -- {} 227
+126 : {(down_diag x o)} -- {} GOAL
+127 : {(down_diag x o)} -- {} GOAL
+128 : {(down_diag x o)} -- {} GOAL
+129 : {(down_diag x o)} -- {} GOAL
+130 : {(down_diag x o)} -- {} GOAL
+131 : {(down_diag x o)} -- {} GOAL
+132 : {(down_diag x o)} -- {} GOAL
+133 : {(down_diag x o)} -- {} GOAL
+134 : {(down_diag x o)} -- {} GOAL
+135 : {(down_diag x o)} -- {} GOAL
+136 : {(down_diag x o)} -- {} GOAL
+137 : {(robot mr)} -- {} 228
+138 : {(robot mr)} -- {} 229
+139 : {(robot mr)} -- {} 230
+140 : {(robot bl)} -- {} 231
+141 : {(robot mr)} -- {} 232
+142 : {(down_diag x o)} -- {} GOAL
+143 : {(down_diag x o)} -- {} GOAL
+144 : {(down_diag x o)} -- {} GOAL
+145 : {(down_diag x o)} -- {} GOAL
+146 : {(down_diag x o)} -- {} GOAL
+147 : {(down_diag x o)} -- {} GOAL
+148 : {(down_diag x o)} -- {} GOAL
+149 : {(robot mr)} -- {} 233
+150 : {(robot mr)} -- {} 234
+151 : {(robot bl)} -- {} 235
+152 : {(robot mr)} -- {} 236
+153 : {(down_diag x o)} -- {} GOAL
+154 : {(robot mr)} -- {} 237
+155 : {(robot mr)} -- {} 238
+156 : {(robot mr)} -- {} 239
+157 : {(robot tm)} -- {} 240
+158 : {(robot mr)} -- {} 241
+159 : {(robot mr)} -- {} 242
+160 : {(robot mr)} -- {} 243
+161 : {(robot tm)} -- {} 244
+162 : {(robot mr)} -- {} 245
+163 : {(robot ml)} -- {} 246
+164 : {(robot ml)} -- {} 247
+165 : {(robot ml)} -- {} 248
+166 : {(robot ml)} -- {} 249
+167 : {(robot bm)} -- {} 250
+168 : {(robot mr)} -- {} 251
+169 : {(robot mr)} -- {} 252
+170 : {(robot tm)} -- {} 253
+171 : {(robot mr)} -- {} 254
+172 : {(robot ml)} -- {} 255
+173 : {(robot ml)} -- {} 256
+174 : {(robot ml)} -- {} 257
+175 : {(robot bm)} -- {} 258
+176 : {(robot ml)} -- {} 259
+177 : {(robot ml)} -- {} 260
+178 : {(robot bm)} -- {} 261
+179 : {(robot mr)} -- {} 262
+180 : {(robot tm)} -- {} 263
+181 : {(down_diag x o)} -- {} GOAL
+182 : {(down_diag x o)} -- {} GOAL
+183 : {(down_diag x o)} -- {} GOAL
+184 : {(robot tr)} -- {} 264
+185 : {(robot bm)} -- {} 265
+186 : {(robot bm)} -- {} 266
+187 : {(robot bm)} -- {} 267
+188 : {(down_diag x o)} -- {} GOAL
+189 : {(left_col x o)} -- {} GOAL
+190 : {(left_col x o)} -- {} GOAL
+191 : {(left_col x o)} -- {} GOAL
+192 : {(left_col x o)} -- {} GOAL
+193 : {(left_col x o)} -- {} GOAL
+194 : {(left_col x o)} -- {} GOAL
+195 : {(left_col x o)} -- {} GOAL
+196 : {(left_col x o)} -- {} GOAL
+197 : {(left_col x o)} -- {} GOAL
+198 : {(left_col x o)} -- {} GOAL
+199 : {(left_col x o)} -- {} GOAL
+200 : {(left_col x o)} -- {} GOAL
+201 : {(left_col x o)} -- {} GOAL
+202 : {(left_col x o)} -- {} GOAL
+203 : {(left_col x o)} -- {} GOAL
+204 : {(left_col x o)} -- {} GOAL
+205 : {(robot tm)} -- {} 268
+206 : {(robot tm)} -- {} 269
+207 : {(robot mm)} -- {} 270
+208 : {(robot tm)} -- {} 271
+209 : {(robot tm)} -- {} 272
+210 : {(down_diag x o)} -- {} GOAL
+211 : {(down_diag x o)} -- {} GOAL
+212 : {(down_diag x o)} -- {} GOAL
+213 : {(robot mr)} -- {} 273
+214 : {(robot mr)} -- {} 274
+215 : {(robot bl)} -- {} 275
+216 : {(robot mr)} -- {} 276
+217 : {(down_diag x o)} -- {} GOAL
+218 : {(robot mr)} -- {} 277
+219 : {(robot bl)} -- {} 278
+220 : {(robot tr)} -- {} 279
+221 : {(robot bm)} -- {} 280
+222 : {(robot bm)} -- {} 281
+223 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 282 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 283 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 284 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 285
+224 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 286 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 287 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 288
+225 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 283 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 289 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 290
+226 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 284 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 289 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 291
+227 : {(human mr)} -- {(next x o)(actor x)} \ {(actor o)} 285 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 290 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 291
+228 : {(human tm)} -- {(next x o)(actor x)} \ {(actor o)} 292 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 293 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 294
+229 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 292 -- {(next x o)(actor x)} \ {(actor o)} 295 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 296 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 297
+230 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 293 -- {(next x o)(actor x)} \ {(actor o)} 296 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 298
+231 : {(human tm)} -- {(next x o)(actor x)} \ {(actor o)} 299 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 300 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 301
+232 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 294 -- {(next x o)(actor x)} \ {(actor o)} 297 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 298
+233 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 302 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 293 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 303
+234 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 302 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 296 -- {(next x o)(actor x)} \ {(actor o)} 304 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 305
+235 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 306 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 300 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 307
+236 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 303 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 298 -- {(next x o)(actor x)} \ {(actor o)} 305
+237 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 308 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 309 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 310 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 311
+238 : {(human ml)} -- {(next x o)(actor x)} \ {(actor o)} 309 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 312 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 313
+239 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 310 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 312 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 314
+240 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 315 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 316 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 317
+241 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 311 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 313 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 314
+242 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 309 -- {(next x o)(actor x)} \ {(actor o)} 318 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 319 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 320
+243 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 312 -- {(next x o)(actor x)} \ {(actor o)} 319 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 321
+244 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 316 -- {(next x o)(actor x)} \ {(actor o)} 322 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 323
+245 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 313 -- {(next x o)(actor x)} \ {(actor o)} 320 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 321
+246 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 324 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 325 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 326 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 327
+247 : {(human mr)} -- {(next x o)(actor x)} \ {(actor o)} 325 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 328 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 329
+248 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 326 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 328 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 330
+249 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 327 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 329 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 330
+250 : {(human mr)} -- {(next x o)(actor x)} \ {(actor o)} 331 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 332 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 333
+251 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 310 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 319 -- {(next x o)(actor x)} \ {(actor o)} 334 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 335
+252 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 308 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 318 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 334 -- {(next x o)(actor x)} \ {(actor o)} 336 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 337
+253 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 315 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 322 -- {(next x o)(actor x)} \ {(actor o)} 338 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 339
+254 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 311 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 320 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 335 -- {(next x o)(actor x)} \ {(actor o)} 337
+255 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 340 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 341 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 326 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 342
+256 : {(human tm)} -- {(next x o)(actor x)} \ {(actor o)} 341 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 328 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 343
+257 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 342 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 343 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 330
+258 : {(human tm)} -- {(next x o)(actor x)} \ {(actor o)} 344 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 332 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 345
+259 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 346 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 347 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 327 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 342
+260 : {(human mr)} -- {(next x o)(actor x)} \ {(actor o)} 347 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 329 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 343
+261 : {(human mr)} -- {(next x o)(actor x)} \ {(actor o)} 348 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 333 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 345
+262 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 314 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 321 -- {(next x o)(actor x)} \ {(actor o)} 335
+263 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 317 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 323 -- {(next x o)(actor x)} \ {(actor o)} 339
+264 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 287 -- {(next x o)(actor x)} \ {(actor o)} 349 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 350
+265 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 283 -- {(next x o)(actor x)} \ {(actor o)} 351 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 352 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 353
+266 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 289 -- {(next x o)(actor x)} \ {(actor o)} 352 -- {(marked ml o)(next x o)(actor x)} \ {(actor o)} 354
+267 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 290 -- {(next x o)(actor x)} \ {(actor o)} 353 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 354
+268 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 355 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 356 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 357 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 358
+269 : {(human mm)} -- {(next x o)(actor x)} \ {(actor o)} 356 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 359 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 360
+270 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 361 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 362 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 363
+271 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 357 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 359 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 364
+272 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 358 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 360 -- {(marked mm o)(next x o)(actor x)} \ {(actor o)} 364
+273 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 365 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 292 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 302 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 366
+274 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 365 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 295 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 304 -- {(next x o)(actor x)} \ {(actor o)} 367 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 368
+275 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 369 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 299 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 306 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 370
+276 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 366 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 297 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 305 -- {(next x o)(actor x)} \ {(actor o)} 368
+277 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 366 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 294 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 303
+278 : {(human bm)} -- {(next x o)(actor x)} \ {(actor o)} 370 -- {(marked bm o)(next x o)(actor x)} \ {(actor o)} 301 -- {(marked tm o)(next x o)(actor x)} \ {(actor o)} 307
+279 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 288 -- {(next x o)(actor x)} \ {(actor o)} 371 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 350
+280 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 285 -- {(next x o)(actor x)} \ {(actor o)} 372 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 353 -- {(marked tr o)(next x o)(actor x)} \ {(actor o)} 373
+281 : {(human bl)} -- {(marked bl o)(next x o)(actor x)} \ {(actor o)} 291 -- {(next x o)(actor x)} \ {(actor o)} 373 -- {(marked mr o)(next x o)(actor x)} \ {(actor o)} 354
+282 : {(mid_col x o)} -- {} GOAL
+283 : {(mid_col x o)} -- {} GOAL
+284 : {(mid_col x o)} -- {} GOAL
+285 : {(mid_col x o)} -- {} GOAL
+286 : {(top_row x o)} -- {} GOAL
+287 : {(top_row x o)} -- {} GOAL
+288 : {(top_row x o)} -- {} GOAL
+289 : {(mid_col x o)} -- {} GOAL
+290 : {(mid_col x o)} -- {} GOAL
+291 : {(mid_col x o)} -- {} GOAL
+292 : {(mid_row x o)} -- {} GOAL
+293 : {(mid_row x o)} -- {} GOAL
+294 : {(mid_row x o)} -- {} GOAL
+295 : {(mid_row x o)} -- {} GOAL
+296 : {(mid_row x o)} -- {} GOAL
+297 : {(mid_row x o)} -- {} GOAL
+298 : {(mid_row x o)} -- {} GOAL
+299 : {(left_col x o)} -- {} GOAL
+300 : {(left_col x o)} -- {} GOAL
+301 : {(left_col x o)} -- {} GOAL
+302 : {(mid_row x o)} -- {} GOAL
+303 : {(mid_row x o)} -- {} GOAL
+304 : {(mid_row x o)} -- {} GOAL
+305 : {(mid_row x o)} -- {} GOAL
+306 : {(left_col x o)} -- {} GOAL
+307 : {(left_col x o)} -- {} GOAL
+308 : {(right_col x o)} -- {} GOAL
+309 : {(right_col x o)} -- {} GOAL
+310 : {(right_col x o)} -- {} GOAL
+311 : {(right_col x o)} -- {} GOAL
+312 : {(right_col x o)} -- {} GOAL
+313 : {(right_col x o)} -- {} GOAL
+314 : {(right_col x o)} -- {} GOAL
+315 : {(top_row x o)} -- {} GOAL
+316 : {(top_row x o)} -- {} GOAL
+317 : {(top_row x o)} -- {} GOAL
+318 : {(right_col x o)} -- {} GOAL
+319 : {(right_col x o)} -- {} GOAL
+320 : {(right_col x o)} -- {} GOAL
+321 : {(right_col x o)} -- {} GOAL
+322 : {(top_row x o)} -- {} GOAL
+323 : {(top_row x o)} -- {} GOAL
+324 : {(left_col x o)} -- {} GOAL
+325 : {(left_col x o)} -- {} GOAL
+326 : {(left_col x o)} -- {} GOAL
+327 : {(left_col x o)} -- {} GOAL
+328 : {(left_col x o)} -- {} GOAL
+329 : {(left_col x o)} -- {} GOAL
+330 : {(left_col x o)} -- {} GOAL
+331 : {(bot_row x o)} -- {} GOAL
+332 : {(bot_row x o)} -- {} GOAL
+333 : {(bot_row x o)} -- {} GOAL
+334 : {(right_col x o)} -- {} GOAL
+335 : {(right_col x o)} -- {} GOAL
+336 : {(right_col x o)} -- {} GOAL
+337 : {(right_col x o)} -- {} GOAL
+338 : {(top_row x o)} -- {} GOAL
+339 : {(top_row x o)} -- {} GOAL
+340 : {(left_col x o)} -- {} GOAL
+341 : {(left_col x o)} -- {} GOAL
+342 : {(left_col x o)} -- {} GOAL
+343 : {(left_col x o)} -- {} GOAL
+344 : {(bot_row x o)} -- {} GOAL
+345 : {(bot_row x o)} -- {} GOAL
+346 : {(left_col x o)} -- {} GOAL
+347 : {(left_col x o)} -- {} GOAL
+348 : {(bot_row x o)} -- {} GOAL
+349 : {(top_row x o)} -- {} GOAL
+350 : {(top_row x o)} -- {} GOAL
+351 : {(mid_col x o)} -- {} GOAL
+352 : {(mid_col x o)} -- {} GOAL
+353 : {(mid_col x o)} -- {} GOAL
+354 : {(mid_col x o)} -- {} GOAL
+355 : {(top_row x o)} -- {} GOAL
+356 : {(top_row x o)} -- {} GOAL
+357 : {(top_row x o)} -- {} GOAL
+358 : {(top_row x o)} -- {} GOAL
+359 : {(top_row x o)} -- {} GOAL
+360 : {(top_row x o)} -- {} GOAL
+361 : {(up_diag x o)} -- {} GOAL
+362 : {(up_diag x o)} -- {} GOAL
+363 : {(up_diag x o)} -- {} GOAL
+364 : {(top_row x o)} -- {} GOAL
+365 : {(mid_row x o)} -- {} GOAL
+366 : {(mid_row x o)} -- {} GOAL
+367 : {(mid_row x o)} -- {} GOAL
+368 : {(mid_row x o)} -- {} GOAL
+369 : {(left_col x o)} -- {} GOAL
+370 : {(left_col x o)} -- {} GOAL
+371 : {(top_row x o)} -- {} GOAL
+372 : {(mid_col x o)} -- {} GOAL
+373 : {(mid_col x o)} -- {} GOAL

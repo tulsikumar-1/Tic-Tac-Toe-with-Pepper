@@ -1,0 +1,173 @@
+{
+    "robot_tl": {
+        "name": "robot",
+        "args": [
+            "tl"
+        ],
+        "pre": {
+            "actor": [
+                "x"
+            ]
+        },
+        "per": {
+            "next": [
+                "x",
+                "o"
+            ]
+        },
+        "add": {
+            "marked": [
+                "tl",
+                "x"
+            ],
+            "actor": [
+                "o"
+            ],
+            "next": [
+                "o",
+                "x"
+            ]
+        },
+        "del": {
+            "actor": [
+                "x"
+            ]
+        }
+    },
+    "human_bl": {
+        "name": "human",
+        "args": [
+            "bl"
+        ],
+        "pre": {
+            "actor": [
+                "o"
+            ]
+        },
+        "per": {
+            "next": [
+                "o",
+                "x"
+            ]
+        },
+        "add": {
+            "actor": [
+                "x"
+            ],
+            "next": [
+                "x",
+                "o"
+            ]
+        },
+        "del": {
+            "actor": [
+                "o"
+            ]
+        }
+    },
+    "robot_tm": {
+        "name": "robot",
+        "args": [
+            "tm"
+        ],
+        "pre": {
+            "actor": [
+                "x"
+            ]
+        },
+        "per": {
+            "next": [
+                "x",
+                "o"
+            ]
+        },
+        "add": {
+            "marked": [
+                "tm",
+                "x"
+            ],
+            "actor": [
+                "o"
+            ],
+            "next": [
+                "o",
+                "x"
+            ]
+        },
+        "del": {
+            "actor": [
+                "x"
+            ]
+        }
+    },
+    "robot_tr": {
+        "name": "robot",
+        "args": [
+            "tr"
+        ],
+        "pre": {
+            "actor": [
+                "x"
+            ]
+        },
+        "per": {
+            "next": [
+                "x",
+                "o"
+            ]
+        },
+        "add": {
+            "marked": [
+                "tr",
+                "x"
+            ],
+            "actor": [
+                "o"
+            ],
+            "next": [
+                "o",
+                "x"
+            ]
+        },
+        "del": {
+            "actor": [
+                "x"
+            ]
+        }
+    },
+    "top_row_x_o": {
+        "name": "top_row",
+        "args": [
+            "x",
+            "o"
+        ],
+        "pre": {
+            "actor": [
+                "x"
+            ]
+        },
+        "per": {
+            "marked": [
+                "tr",
+                "x"
+            ],
+            "next": [
+                "x",
+                "o"
+            ]
+        },
+        "add": {
+            "win": [
+                "x"
+            ],
+            "actor": [
+                "o"
+            ]
+        },
+        "del": {
+            "actor": [
+                "x"
+            ]
+        }
+    }
+}

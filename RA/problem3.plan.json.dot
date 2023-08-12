@@ -1,0 +1,24 @@
+digraph defaultname {
+	graph []
+	node []
+	edge []
+
+		subgraph cluster_main {
+			graph [color=black fillcolor=white label=main]
+			node [style=filled fillcolor=orange]
+			edge []
+				robot_tl [label="robot_tl"]
+				human_bl [label="human_bl"]
+				robot_tm [label="robot_tm"]
+				human_bl [label="human_bl"]
+				robot_tr [label="robot_tr"]
+				human_bl [label="human_bl"]
+				top_row_x_o [label="top_row_x_o"]
+		}
+			robot_tl -> human_bl
+			human_bl -> robot_tm
+			robot_tm -> human_bl
+			human_bl -> robot_tr
+			robot_tr -> human_bl
+			human_bl -> top_row_x_o
+}

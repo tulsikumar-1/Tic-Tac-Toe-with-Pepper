@@ -1,0 +1,21 @@
+{
+    "main": {
+        "list": [
+            "robot_tl",
+            "human_bl",
+            "robot_tm",
+            "human_bl",
+            "robot_tr",
+            "human_bl",
+            "top_row_x_o"
+        ],
+        "ordering": "total"
+    },
+    "actions": [
+        "robot_tl",
+        "human_bl",
+        "robot_tm",
+        "robot_tr",
+        "top_row_x_o"
+    ]
+}
