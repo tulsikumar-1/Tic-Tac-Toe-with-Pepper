@@ -10,3 +10,9 @@ This project combines HRI and RA to provide a formidable robot.
 
 ![image](https://github.com/tulsikumar-1/Tic-Tac-Toe-with-Pepper/assets/104934568/0e33dded-5d86-406d-b79b-be742f81ef30)
 ![image](https://github.com/tulsikumar-1/Tic-Tac-Toe-with-Pepper/assets/104934568/7612a119-97ed-44cb-b0dc-f27cb224d478)
+
+
+## Requirements
+Python Naoqi
+Choregraphe
+Non-Deterministic planner
